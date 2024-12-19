@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main-div">
+            <h1>Generate a <br> <span>random password</span></h1>
+            <p id="tag">Never use an insecure password again.</p>
+            <p id="enter-limit-para">Enter Limit: <input type="number" placeholder="14" id="limit"></p>
+            
+            <p class="paras">Want numbers in password?<input type="radio" name="choice-num" value="Yes">Yes<input type="radio" name="choice-num" value="No">No</p>
+            
+            <p class="paras">Want special characters in password?<input type="radio" name="choice-spec" value="Yes">Yes<input type="radio" name="choice-spec" value="No">No</p>
+            
+            <button onclick="generateRandomPass()">Generate passwords</button>
+            <hr>
+            <div id="flexbox">
+                <p id="first-password-para"></p>
+                <p id="second-password-para"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

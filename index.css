@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    font-family: "Karla", serif;
+    font-style: normal;
+}
+#main-div{
+    width: 450px;
+    padding: 46px;
+}
+#main-div h1{
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin: 0%;
+}
+#tag{
+    color: white;
+    font-weight: 100;
+}
+#main-div h1 span{
+    color: #10B981;
+}
+#main-div button{
+    width: 191px;
+    height: 42px;
+    top: 284px;
+    left: 52px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    border-radius: 7px;
+    border: none;
+    opacity: 0px;
+    color: white;
+    background-color: #10B981;
+    margin-top: 25px;
+}
+#main-div hr{
+    margin-top: 25px;
+    border: 1px solid #2F3E53;
+}
+#first-password-para{
+    width: 211px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #273549;
+    text-align: center;
+    padding: 15px 8px;   
+    color: #10B981; 
+    word-wrap: break-word;
+}
+#second-password-para{
+    word-wrap: break-word;
+    width: 211px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #273549;
+    text-align: center;
+    padding: 15px 8px;   
+    color: #10B981;   
+    margin-left: 24px;  
+}
+#flexbox{
+    display: flex;
+}
+#main-div button:hover{
+    cursor: pointer;
+}
+input{
+    width: 42px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 12px;
+}
+#enter-limit-para{
+    letter-spacing: 2px;
+    color: white;
+}
+.paras{
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: white;
+}
